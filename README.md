@@ -22,7 +22,7 @@ these can be viewed with `dumpsys` command
 The Idea is when the device is powered through usb (USB powered become true) such as connected to pc/laptop then we will perfrom
 the HID attack so we can run the script before connecting the android device to pc/laptop.
 # Installation
-download usb-detect.sh in this repo and roidducky repo at https://github.com/anbud/DroidDucky
+download usb-detect.sh in this repo and droidducky repo at https://github.com/anbud/DroidDucky
 
 move DroidDucky folder into /data/local/ and put usb-detect.sh in DroidDucky directory
 ```bash
