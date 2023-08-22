@@ -9,7 +9,7 @@ so i create this script to detect if the device is connected to pc/laptop or not
 
 in android there are 2 power type AC and USB,
 
-**AC power**: This refers to when a device is powered or charged using an AC (Alternating Current) power source, typically from an electrical outlet. While the device might connect to the power source using a USB cable, the source of power itself is AC, which is then converted into DC (Direct Current) within the device to charge its battery.
+**AC powered**: This refers to when a device is powered or charged using an AC (Alternating Current) power source, typically from an electrical outlet. While the device might connect to the power source using a USB cable, the source of power itself is AC, which is then converted into DC (Direct Current) within the device to charge its battery.
 
 
 **USB Powered**: This refers to when a device, such as a smartphone or tablet, is powered or charged using a USB (Universal Serial Bus) connection. Most Android devices can be charged through a USB connection using a computer, a USB wall charger, or other compatible USB power sources. 
@@ -21,7 +21,7 @@ these can be viewed with `dumpsys` command
 
 The Idea is when the device is powered through usb (USB powered become true) such as connected to pc/laptop then we will perfrom
 the HID attack so we can run the script before connecting the android device to pc/laptop.
-# Installion
+# Installation
 download usb-detect.sh in this repo and roidducky repo at https://github.com/anbud/DroidDucky
 
 move DroidDucky folder into /data/local/ and put usb-detect.sh in DroidDucky directory
